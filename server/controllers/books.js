@@ -17,7 +17,7 @@ export function displayBookList(req, res, next) {
 //  GET the Book Details page in order to add a new Book
 export function displayAddPage(req, res, next) {
    
-    res.render('index',{title: 'Add Book', page: 'books/edit', Books:{}, name: displayAddPage(req)});
+    res.render('index',{title: 'Add Book', page: 'books/add', books:{}});
 
 }
 
